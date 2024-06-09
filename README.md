@@ -2,6 +2,12 @@
 Open-source mod loader for Friday Night Funkin'
 
 
+## Source Code guide
+Download the source release and use pyinstaller to compile it or just run the .py file
+(not recommended, as the source code is experimental release and it isn't the same as bin release)
+(the file does not require any additional libraries cuz it uses TkInter for displaying a window)
+
+
 ## Install guide
 1. Download the bin release
 2. Unpack it anywhere you want
