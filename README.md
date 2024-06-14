@@ -1,6 +1,9 @@
 # FnFModLoader
 Open-source mod loader for Friday Night Funkin'
+![obraz](https://github.com/NevrenDev/FnFModLoader/assets/161096009/b02a5a8b-25db-4469-b67a-2140eb066d0e)
 
+You could kinda customize the look by changing the background image and icon (I'll change the icon in the future)
+I'll try adding an option to more customize the loader, but it'll take a while
 
 ## Source Code guide
 Download the source release and use pyinstaller to compile it or just run the .py file
