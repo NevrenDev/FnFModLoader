@@ -26,3 +26,9 @@ You need to install tkcolorpicker and pillow in order for the app to work proper
 5. Click 'Launch'
 6. Have fun!
 Side Note: while playing the mod, loader will not respond as it doesn't have function to launch multiple mods at once, also it could break with non-executable mods
+
+## Opening Settings
+1. Open Mod Loader
+2. Press Left Alt
+3. Click File
+4. Click Test
