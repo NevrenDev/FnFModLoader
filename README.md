@@ -6,9 +6,8 @@ You could kinda customize the look by changing the background image and icon (I'
 I'll try adding an option to more customize the loader, but it'll take a while
 
 ## Source Code guide
-Download the source release and use pyinstaller to compile it or just run the .py file
-(not recommended, as the source code is experimental release and it isn't the same as bin release)
-(the file does not require any additional libraries cuz it uses TkInter for displaying a window)
+Download the source code and use pyinstaller to compile it or just run the .py file
+You need to install tkcolorpicker and pillow in order for the app to work properly (required for v1.2 and above)
 
 
 ## Install guide
