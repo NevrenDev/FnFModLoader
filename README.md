@@ -1,4 +1,7 @@
 # FnFModLoader
+## Notice
+As of now I'm kinda busy so no new updates will be coming soon, but I'll be working on version 2.0 with complete rewrite of the source code. I'll maybe release 2.0 near christmas or something
+
 Open-source mod loader for Friday Night Funkin'
 ![obraz](https://github.com/NevrenDev/FnFModLoader/assets/161096009/b02a5a8b-25db-4469-b67a-2140eb066d0e)
 
