@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nevrendev.github.io/style.css">
+    <link rel="shortcut icon" href="https://nevrendev.github.io/favicon.png" type="image/x-icon">
+    <title>FnfModLoader | NevrenDev</title>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="logo">&gt; <strong>NevrenDev</strong><button onclick="go('https:/\/nevrendev.github.io')" style="margin-left: 15px;">Home Page</button></div>
+            <div class="nav">
+                <button onclick="go('#intro')">About</button>
+                <button onclick="go('#progress')">Progress</button>
+            </div>
+            <div style="display:flex;gap:12px;align-items:center;">
+                <button class="theme-toggle" id="themeToggle" onclick="theme()">Theme: Light</button>
+            </div>
+        </header>
+        <main class="h-scroll" id="hScroll">
+            <section class="section intro" id="intro">
+                <div class="panel">
+                    <div id="introBox">
+                        <div class="avatar" aria-hidden="true">
+                            <div class="icon" style="background-image: url('../icon.ico');background-size: 75%;"></div>
+                        </div>
+                        <div>
+                            <div class="title">> FnF Mod Loader</div>
+                            <p style="opacity:0.9;margin-top:8px;">My first open-source fully released program. <br>
+                            It doesn't feature much options and has been cancelled due to more advanced 2.0 version being made. <br>
+                            You can go to the repo <button onclick="go('https:/\/github.com/NevrenDev/FnFModLoader')">here</button></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section progress" id="progress">
+                <div class="panel">
+                    <h2>Progress and updates</h2>
+                    <hr>
+                    <h3>Progress</h3>
+                    <label>
+                        Cancelled
+                        <progress max="100" value="80"></progress>
+                    </label>
+                    <br><br>
+                    <h3>Updates</h3>
+                    <p>Untracked</p>
+                </div>
+            </section>
+        </main>
+
+        <footer title="and ChatGPT*">
+            © 2025 NevrenDev • built with 🧋 and pain
+        </footer>
+    </div>
+    <script src="https://nevrendev.github.io/script.js"></script>
+</body>
+</html>
